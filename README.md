@@ -45,11 +45,18 @@ To install Commerce Core:
 
   - Enter `psql -U postgres` to open the PostgreSQL command line interface. If prompted, input your password.
   - To set up the database, type `\i db/schema.sql` and press Enter.
+  - Next enter `\q` and hit Enter
   Now your database is ready to use!
 
 - Remove '.EXAMPLE' from the .env.EXAMPLE file renaming it to .env
 
 - Configure that .env file with your database credentials
+
+- Initialize your seeds by running `npm run seeds`
+
+- Initialize the program by running `npm start`
+
+- You should see a message saying your program is running on `localhost: {port}`
 
 
 ## API Endpoints
