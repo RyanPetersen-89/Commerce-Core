@@ -101,6 +101,3 @@ For any questions or concerns, please contact rp26898@gmail.com.
 ### [Kaila Ronquillo](https://github.com/girlnotfound)
 
 ### [Adam Rosenberg](https://github.com/AcoderRose)
-
-
-
