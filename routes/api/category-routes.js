@@ -73,11 +73,6 @@ router.put('/:id', async (req, res) => {
       res.status(404).json({ message: 'No category found with this id!' });
       return;
     }
-
-    // Logs the updated category for verification
-    console.log(`Category with id ${req.params.id} has been updated:`, updatedCategory);
-
-
     const updatedCategory = await Category.findByPk(req.params.id);
     res.json(updatedCategory);
   } catch (err) {
