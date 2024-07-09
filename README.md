@@ -15,6 +15,10 @@
 
 Welcome to the Commerce Core project! This project provides the backend functionality for an e-commerce platform, handling product, category, and tag management. It is built using Node.js and Express, and leverages Sequelize ORM for database interactions.
 
+<br>
+<img src="./imgs/Screenshot 2024-07-08 182748.png" alt="screenshot of demonstration" width="800px" height="100%" style=object-position: center;>
+<br>
+
 ## Features
 
 - Product Management: Create, read, update, and delete products.
